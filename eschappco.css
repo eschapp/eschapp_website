@@ -121,9 +121,15 @@ a:hover, a:active {
 .about > div {
   flex-grow: 1;
   width: 33%;
-  height: 150px;
+  margin: 0 10px;
 }
 
 .about > p {
   padding: 10px;
+}
+
+.about img {
+  display: flex;
+  height: 100px;
+  margin: 0 auto;
 }
