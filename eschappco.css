@@ -111,3 +111,19 @@ a:hover, a:active {
   display: block;
   margin: 0 auto;
 }
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+    flex-flow: row nowrap;
+
+}
+.about > div {
+  flex-grow: 1;
+  width: 33%;
+  height: 150px;
+}
+
+.about > p {
+  padding: 10px;
+}
